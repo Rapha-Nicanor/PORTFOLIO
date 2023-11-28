@@ -1,0 +1,63 @@
+
+html, body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    background: no-repeat center;
+    background-size: cover;
+    color: #4571be;
+    ;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;    
+}
+
+footer {
+    background-color: #4571be;
+    flex-shrink: 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #bfbfbf;
+}
+
+@media (max-width: 767.90px){
+    .color-overlay{
+        min-height: 30vh;
+    }
+}
+
+.btn-outline-dark{
+    border: #3a3a3a solid 1px;
+}
+
+.btn-outline-dark:hover {
+    background-color: #accaff;
+}
+.card-body {
+    color: rgb(11, 32, 77);
+}
+.btn-outline-dark{
+    background-color: rgb(255, 255, 255);
+}
